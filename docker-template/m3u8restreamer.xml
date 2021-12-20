@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Container>
+  <TemplateURL>https://raw.githubusercontent.com/micahmo/m3u8restreamer/main/docker-template/m3u8restreamer.xml</TemplateURL>
+  <Name>m3u8restreamer</Name>
+  <Project>https://github.com/micahmo/m3u8restreamer/</Project>
+  <Overview>
+	  A self-hosted m3u8 restreamer
+  </Overview>
+  <Description>
+	  A self-hosted m3u8 restreamer
+  </Description>
+  <Registry>https://registry.hub.docker.com/u/micahmo/m3u8restreamer/</Registry>
+  <GitHub>https://github.com/micahmo/m3u8restreamer/</GitHub>
+  <Repository>micahmo/m3u8restreamer</Repository>
+	<Icon>https://raw.githubusercontent.com/micahmo/m3u8restreamer/main/logo.png</Icon>
+  <Networking>
+    <Mode>bridge</Mode>
+  </Networking>
+	<Config Name="Port" Target="11034" Default="11034" Mode="tcp" Description="The external port to reach this service. Maps to container port 11034." Type="Port" Display="always" Required="true" Mask="false">11034</Config>
+</Container>

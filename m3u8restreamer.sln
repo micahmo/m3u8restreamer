@@ -8,6 +8,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C9482285-B887-4398-BC3F-7BB339FE7181}"
 	ProjectSection(SolutionItems) = preProject
 		Dockerfile = Dockerfile
+		docker-template\m3u8restreamer.xml = docker-template\m3u8restreamer.xml
 		README.md = README.md
 	EndProjectSection
 EndProject
