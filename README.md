@@ -7,7 +7,7 @@ This self-hosted service is intended to act as a middle-man between a front-end 
 This service is intended to run in Docker and is available as an [image on Docker Hub](https://hub.docker.com/repository/docker/micahmo/m3u8restreamer).
 
 ```
-docker run -d --name=m3u8restreamer -p 11034:11034 m3u8restreamer
+docker run -d --name=m3u8restreamer -p 11034:11034 micahmo/m3u8restreamer
 ```
 
 ### Unraid
