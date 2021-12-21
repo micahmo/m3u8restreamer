@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Container>
-  <TemplateURL>https://raw.githubusercontent.com/micahmo/m3u8restreamer/main/docker-template/m3u8restreamer.xml</TemplateURL>
+  <TemplateURL>https://raw.githubusercontent.com/micahmo/m3u8restreamer/master/docker-template/m3u8restreamer.xml</TemplateURL>
   <Name>m3u8restreamer</Name>
   <Project>https://github.com/micahmo/m3u8restreamer/</Project>
   <Overview>
@@ -12,7 +12,7 @@
   <Registry>https://registry.hub.docker.com/u/micahmo/m3u8restreamer/</Registry>
   <GitHub>https://github.com/micahmo/m3u8restreamer/</GitHub>
   <Repository>micahmo/m3u8restreamer</Repository>
-	<Icon>https://raw.githubusercontent.com/micahmo/m3u8restreamer/main/logo.png</Icon>
+	<Icon>https://raw.githubusercontent.com/micahmo/m3u8restreamer/master/logo.png</Icon>
   <Networking>
     <Mode>bridge</Mode>
   </Networking>
