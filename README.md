@@ -4,10 +4,10 @@
 This self-hosted service is intended to act as a middle-man between a front-end TV/DVR service like Plex or Emby, and a back-end tuner emulator, like [xTeVe](https://github.com/xteve-project/xTeVe) in cases where Plex is unable to play the given raw m3u8 URL.
 
 # Setup
-This service is intended to run in Docker and is available as an [image on Docker Hub](https://hub.docker.com/repository/docker/micahmo/m3u8restreamer).
+This service is intended to run as a container and is available as an [Docker image](https://github.com/micahmo/m3u8restreamer/pkgs/container/m3u8restreamer).
 
 ```
-docker run -d --name=m3u8restreamer -p 11034:11034 micahmo/m3u8restreamer
+docker run -d --name=m3u8restreamer -p 11034:11034 ghcr.io/micahmo/m3u8restreamer
 ```
 
 ### Unraid
