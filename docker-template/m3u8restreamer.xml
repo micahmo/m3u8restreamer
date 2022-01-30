@@ -9,9 +9,9 @@
   <Description>
 	  A self-hosted m3u8 restreamer
   </Description>
-  <Registry>https://registry.hub.docker.com/u/micahmo/m3u8restreamer/</Registry>
+  <Registry>https://github.com/micahmo/m3u8restreamer/pkgs/container/m3u8restreamer</Registry>
   <GitHub>https://github.com/micahmo/m3u8restreamer/</GitHub>
-  <Repository>micahmo/m3u8restreamer</Repository>
+  <Repository>ghcr.io/micahmo/m3u8restreamer</Repository>
 	<Icon>https://raw.githubusercontent.com/micahmo/m3u8restreamer/master/logo.png</Icon>
   <Networking>
     <Mode>bridge</Mode>
